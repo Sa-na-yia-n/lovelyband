@@ -1,0 +1,77 @@
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style for header */
+  header {
+    background-color: #e51313;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #bf1a1a;
+  }
+  
+  p {
+    color: #777;
+  }
+  
+  /* Style for biography */
+  .biography {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .member {
+    text-align: center;
+  }
+  
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Style for favorites */
+  .favorites {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    color: #777;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Style for project details */
+  .project-details {
+    padding: 20px;
+  }
+  
+  a {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
